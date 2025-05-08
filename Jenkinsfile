@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HUB_USER = 'marcelociaccounifeob'
+        DOCKER_HUB_USER = 'IgorEscapelli'
         IMAGE_WEB = "${DOCKER_HUB_USER}/web-app"
         IMAGE_REPORT = "${DOCKER_HUB_USER}/report-app"
     }
